@@ -10,12 +10,12 @@ byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 // led integrado na placa - pino D13 
 #define LED_D13 13                   
 
-IPAddress server_ip(128,30,0,3); // ip do servidor de banco mysql
-IPAddress ip(128,30,0,144);  // qualquer ip da faixa de rede para caso o arduino nao suba dhcp
+IPAddress server_ip(xxx,xx,0,3); // ip do servidor de banco mysql
+IPAddress ip(xxx,xx,0,144);  // qualquer ip da faixa de rede para caso o arduino nao suba dhcp
 EthernetClient client;
 
-char user[] = "geraldo"; //user banco
-char password[] = "odlareg"; //senha banco
+char user[] = "USER"; //user banco
+char password[] = "SENHA"; //senha banco
 MySQL_Connection conn((Client *)&client);
 
 const byte placa1 = 2; // pin da referida placa
