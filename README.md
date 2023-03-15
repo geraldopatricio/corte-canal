@@ -10,5 +10,5 @@ Este projeto tem como Objetivo coletar os dados de apontamento do Corte de Canal
 ## Suporte:
 ``` 
 E-Mail:   gpatricio.melo@gmail.com 
-WhatsApp: (85) 9 9731-9843
+WhatsApp: (85) 9 9150-8104
 ```
